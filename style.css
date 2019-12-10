@@ -111,3 +111,14 @@
 .ex-6-img:hover {
   filter: grayscale(1);
 }
+
+.ex-7-img:hover {
+  filter:saturate(0.5) invert(1);
+  transition-duration: 6s;
+}
+
+.ex-8-img:hover {
+  filter:sepia(1) opacity(0.6);
+  border-radius: 6px;
+  transition-duration: 6s;
+}
