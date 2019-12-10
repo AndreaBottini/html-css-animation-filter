@@ -154,6 +154,48 @@
 
 @keyframes loading_right {
   75% {
-    transform:rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: moveline;
+  animation-duration: 4s;
+}
+
+@keyframes moveline {
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+  50% {
+    top: -10px;
+    left: calc(100% - 60px);
+  }
+  100% {
+    top: -10px;
+    left: 10%;
+  }
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: moveline_bottom;
+  animation-duration: 4s;
+}
+
+@keyframes moveline_bottom {
+
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+  50% {
+    bottom: -10px;
+    right: calc(100% - 60px);
+  }
+  100% {
+    bottom: -10px;
+    right: 20%;
   }
 }
